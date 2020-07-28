@@ -8,6 +8,8 @@ For locally setup please create a `.env` file and configure the next variables:
 - DB_CNN = MongoAtlas DB
 - SECRET_JWT_SEED
 
+[Heroku API](https://calendarapp-backend.herokuapp.com/)
+
 ## API Documentation
 
 The application is built under a small NodeJS backend, and uses the following endpoints:
@@ -49,7 +51,7 @@ and also keep in mind just the event creator can update the event.</td>
   </tr>
 
   <tr>
-    <td>PUT</td>
+    <td>DELETE</td>
     <td>localhost + /api/events/:id</td>
   <td>Remember to add the JWT token `x-token` in the header.
 and also keep in mind just the event creator can delete the event.</td>
