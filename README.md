@@ -5,7 +5,7 @@ Node JS, Express, JWT to work with my react calendar app
 For locally setup please create a `.env` file and configure the next variables:
 
 - PORT
-- DB_CNN
+- DB_CNN = MongoAtlas DB
 - SECRET_JWT_SEED
 
 ## API Documentation
